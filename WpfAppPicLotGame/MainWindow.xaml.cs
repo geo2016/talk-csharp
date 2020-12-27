@@ -67,7 +67,7 @@ namespace WpfAppPicLotGame
 
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
-            _timer1.IsEnabled = !_timer1.IsEnabled;
+            _timer1.IsEnabled = !_timer1.IsEnabled; 
 
             btnStart.Content = _timer1.IsEnabled ? "停止" : "开始";
         }
