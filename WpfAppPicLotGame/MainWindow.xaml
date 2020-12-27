@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppPicLotGame"
         mc:Ignorable="d"
-        Title="Pic Lot Game" Height="450" Width="500">
+        Title="MainWindow" Height="450" Width="500">
     <Grid x:Name="grid1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -16,12 +16,11 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        
         <TextBlock Grid.Row="0" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="70"/>
         <TextBlock Grid.Row="0" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="70"/>
         <TextBlock Grid.Row="1" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="70"/>
         <TextBlock Grid.Row="1" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Segoe UI" FontSize="70"/>
 
-        <Button x:Name="btnStart" Content="开始" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="70" Click="btnStart_Click"/>
+        <Button x:Name="btnStart" Content="启动" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" FontSize="70" Click="btnStart_Click"/>
     </Grid>
 </Window>
