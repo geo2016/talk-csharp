@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfAppUIControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppUIControls"
+        mc:Ignorable="d"
+        Title="WFP UI Control" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="26" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="26" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="26" />
+        </Style>
+    </Window.Resources>
+    <Canvas>
+        <TextBlock Text="结果:" Margin="10"/>
+        <TextBlock x:Name="lblResult" Text="result_value" Canvas.Left="98" Canvas.Top="10"/>
+
+        <Button Content="获取值" Canvas.Left="281" Canvas.Top="8" Height="48" Width="132" Click="Button_Click"/>
+        <TextBox Name="tb1" Height="39" Canvas.Left="98" TextWrapping="Wrap" Text="" Canvas.Top="99" Width="133"/>
+    </Canvas>
+</Window>

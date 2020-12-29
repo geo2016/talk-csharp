@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppPicLotGame", "WpfAppPicLotGame\WpfAppPicLotGame.csproj", "{BBBAD5EC-6629-4386-ABB5-C10298BDD865}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotCoreConsole1", "dotCoreConsole1\dotCoreConsole1.csproj", "{A1D0A84A-761F-4439-AE50-B8A4297A2807}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotCoreConsole1", "dotCoreConsole1\dotCoreConsole1.csproj", "{A1D0A84A-761F-4439-AE50-B8A4297A2807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppUIControls", "WpfAppUIControls\WpfAppUIControls.csproj", "{D2115C18-D962-434C-A768-257B916CC2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A1D0A84A-761F-4439-AE50-B8A4297A2807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1D0A84A-761F-4439-AE50-B8A4297A2807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1D0A84A-761F-4439-AE50-B8A4297A2807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2115C18-D962-434C-A768-257B916CC2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2115C18-D962-434C-A768-257B916CC2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2115C18-D962-434C-A768-257B916CC2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2115C18-D962-434C-A768-257B916CC2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
