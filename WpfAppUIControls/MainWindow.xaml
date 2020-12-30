@@ -17,11 +17,26 @@
             <Setter Property="FontSize" Value="26" />
         </Style>
     </Window.Resources>
-    <Canvas>
+    <Canvas x:Name="cas1">
         <TextBlock Text="结果:" Margin="10"/>
         <TextBlock x:Name="lblResult" Text="result_value" Canvas.Left="98" Canvas.Top="10"/>
 
         <Button Content="获取值" Canvas.Left="281" Canvas.Top="8" Height="48" Width="132" Click="Button_Click"/>
-        <TextBox Name="tb1" Height="39" Canvas.Left="98" TextWrapping="Wrap" Text="" Canvas.Top="99" Width="133"/>
+        <TextBox Name="tb1" Height="39" Canvas.Left="98" TextWrapping="Wrap" Text="" Canvas.Top="99" Width="133" PreviewTextInput="tb1_PreviewTextInput"/>
+        <RadioButton GroupName="grpNum" Content="1" Canvas.Left="387" Canvas.Top="127"/>
+        <RadioButton GroupName="grpNum" Content="2" Canvas.Left="387" Canvas.Top="147"/>
+        <RadioButton GroupName="grpNum" Content="3" Canvas.Left="387" Canvas.Top="167"/>
+        <RadioButton GroupName="grpStr" Content="abc" Canvas.Left="244" Canvas.Top="150"/>
+        <ListBox x:Name="list1" Height="100" Canvas.Left="98" Canvas.Top="206" Width="100">
+            <ListBoxItem Content="11111"/>
+            <ListBoxItem Content="abc"/>
+            <ListBoxItem Content="dddd"/>
+        </ListBox>
+        <ComboBox x:Name="cbo1" Canvas.Left="244" Canvas.Top="244" Width="120" IsEditable="True">
+            <ComboBoxItem Content="sel1"/>
+            <ComboBoxItem Content="sel2"/>
+        </ComboBox>
+        <CheckBox x:Name="chk1" Content="勾选框" Canvas.Left="214" Canvas.Top="328"/>
+        <Image x:Name="img1" Height="100" Canvas.Left="481" Canvas.Top="227" Width="100" Source="D:\data\tools\素材\图片\数字0-9\0.png"/>
     </Canvas>
 </Window>
