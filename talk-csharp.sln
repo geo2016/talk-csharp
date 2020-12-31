@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotCoreConsole1", "dotCoreC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppUIControls", "WpfAppUIControls\WpfAppUIControls.csproj", "{D2115C18-D962-434C-A768-257B916CC2E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppYearLot", "ConsoleAppYearLot\ConsoleAppYearLot.csproj", "{6D97400B-F52B-4D8C-BA7D-97A0168F38B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D2115C18-D962-434C-A768-257B916CC2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2115C18-D962-434C-A768-257B916CC2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2115C18-D962-434C-A768-257B916CC2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D97400B-F52B-4D8C-BA7D-97A0168F38B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D97400B-F52B-4D8C-BA7D-97A0168F38B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D97400B-F52B-4D8C-BA7D-97A0168F38B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D97400B-F52B-4D8C-BA7D-97A0168F38B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
