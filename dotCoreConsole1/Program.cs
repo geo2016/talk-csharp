@@ -1,12 +1,124 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace dotCoreConsole1
 {
     class Program
     {
+        enum tagScoreLevel
+        {
+            Low=0,
+            Good=80,
+        }
+
         static void Main(string[] args)
         {
+            // DataTables
+
+            // Dictionary
+            Dictionary<string, string> animalFood = new Dictionary<string, string>();
+
+            
+
+            animalFood.Add("Dog", "Bone,Meat");
+            animalFood["Cat"] = "Fish";
+
+            //string food = animalFood["Wolf"];
+            if(animalFood.TryGetValue("Wolf",out string food))
+            {
+
+            }
+
+            if (animalFood.ContainsKey("Wolf"))
+            {
+                string food2 = animalFood["Wolf"];
+            }
+
+            // List
+            string animals = "Dog,Cat,Elephont";
+            string[] arr1 = animals.Split(',');
+
+            List<string> list1 = new List<string>(arr1);
+
+            list1.Add("Wolf");
+            list1.Insert(0, "Fox");
+
+            string[] arr4 = { "Bird", "Mouse" };
+            list1.AddRange(arr4);
+
+            list1.Remove("Dog");
+
+            // - 排序
+            //list1.Sort();
+
+            //list1.Sort((x, y) => x.Length < y.Length ? -1 : 1);
+            list1.Sort((x, y) => x.Length.CompareTo(y.Length));
+
+            string[] arr3 = list1.ToArray();
+
+            List<string> list2 = list1.FindAll(x => x.Length == 4);
+            list1.RemoveAll(x => x.Length == 4);
+
+
+
+
+            // Array
+
+            foreach (string item in arr1)
+            {
+                Console.WriteLine(item);
+            }
+
+            string[] arr2 = 
+            {
+                "111",
+                "2222",
+            };
+
+            
+
+            // Enum
+            int score = (int)Enum.Parse(typeof(tagScoreLevel), "Good");
+
+            Console.WriteLine("输入您的考试分数：");
+            if(int.TryParse(Console.ReadLine(),out int iScore))
+            {
+                tagScoreLevel level1 = tagScoreLevel.Low;
+
+                if (iScore >= (int)tagScoreLevel.Good)
+                {
+                    level1 = tagScoreLevel.Good;
+                }
+
+                //switch (level1)
+                //{
+                //    case tagScoreLevel.Low:
+                //        break;
+
+                //    case tagScoreLevel.Good:
+                //        break;
+
+                //    default:
+                //        break;
+                //}
+                Console.WriteLine("您的表现："+level1.ToString());
+            }
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
             //Animal animal = Animal.CreateAnimal(5,"Cat");
 
             //animal.Age = 3;
@@ -27,6 +139,7 @@ namespace dotCoreConsole1
 
             */
 
+            /*
             Animal animal1 = new Cat(2, "Cat", "It is a lovely Cat");
             if (animal1 is IMouseHunter catObj)
             {
@@ -39,7 +152,6 @@ namespace dotCoreConsole1
             //Cat cat1 = new Cat(2, "Cat", "It is a lovely Cat");
             //cat1.Run();
 
-            /*
             IRun[] arrInfRun =
             {
                 new Dog(3,"Dog","It is a brave Dog."),
