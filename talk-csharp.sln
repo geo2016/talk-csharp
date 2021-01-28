@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataBind", "WpfDataBind\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppLinq", "ConsoleAppLinq\ConsoleAppLinq.csproj", "{8C2C6E76-94CA-493E-B841-683032CC49BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppReadWrite", "ConsoleAppReadWrite\ConsoleAppReadWrite.csproj", "{F471B5DB-C1A0-4FC9-85B1-703A6ECD08A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppReadWrite", "ConsoleAppReadWrite\ConsoleAppReadWrite.csproj", "{F471B5DB-C1A0-4FC9-85B1-703A6ECD08A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp9", "csharp9\csharp9.csproj", "{6EA45152-49D8-4DC2-8FC9-874AFBC6B6A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F471B5DB-C1A0-4FC9-85B1-703A6ECD08A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F471B5DB-C1A0-4FC9-85B1-703A6ECD08A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F471B5DB-C1A0-4FC9-85B1-703A6ECD08A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA45152-49D8-4DC2-8FC9-874AFBC6B6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA45152-49D8-4DC2-8FC9-874AFBC6B6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA45152-49D8-4DC2-8FC9-874AFBC6B6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA45152-49D8-4DC2-8FC9-874AFBC6B6A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
